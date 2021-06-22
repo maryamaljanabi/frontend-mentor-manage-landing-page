@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  padding: 3rem 12rem;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    width: 130px;
+    object-fit: contain;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+}
