@@ -1,3 +1,5 @@
+@import "./../../assets/styles/colors.scss";
+
 .navbar {
   display: flex;
   padding: 3rem 12rem;
@@ -12,5 +14,12 @@
     flex-direction: row;
     gap: 2rem;
     justify-content: space-between;
+    span {
+      transition: all 200ms ease-out;
+      &:hover {
+        color: $Bright-Red;
+        cursor: pointer;
+      }
+    }
   }
 }

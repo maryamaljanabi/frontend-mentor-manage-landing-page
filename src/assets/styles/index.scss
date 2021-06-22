@@ -31,6 +31,12 @@ body {
   padding: 0.5rem 2rem;
   height: 50px;
   box-shadow: 0 10px 20px rgba(61, 60, 60, 0.205);
+  transition: all 300ms ease-in-out;
+  &:hover {
+    cursor: pointer;
+    color: $Bright-Red;
+    background-color: $Very-Light-Gray;
+  }
 }
 
 p {
