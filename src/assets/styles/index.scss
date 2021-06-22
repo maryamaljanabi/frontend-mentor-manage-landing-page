@@ -10,6 +10,19 @@
   color: $Dark-Blue;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./../images/bg-tablet-pattern.svg"),
+    url("./../images/bg-tablet-pattern.svg");
+  background-position: top -9rem right -6rem, top -8rem right -8rem,
+    top 32rem left 14rem;
+  background-repeat: no-repeat;
+  background-color: $Very-Light-Gray;
+}
+
 .rounded-orange-button {
   color: $Very-Light-Gray;
   background-color: $Bright-Red;

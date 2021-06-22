@@ -7,11 +7,11 @@ const Navbar = () => {
     <div className="navbar">
       <img className="logo" alt="logo-img" src={Logo} />
       <div className="links">
-        <p>Pricing</p>
-        <p>Product</p>
-        <p>About Us</p>
-        <p>Careers</p>
-        <p>Community</p>
+        <span>Pricing</span>
+        <span>Product</span>
+        <span>About Us</span>
+        <span>Careers</span>
+        <span>Community</span>
       </div>
       <button className="rounded-orange-button">Get Started</button>
     </div>
