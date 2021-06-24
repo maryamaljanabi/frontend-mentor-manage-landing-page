@@ -1,7 +1,9 @@
 .jumbotron {
   padding: 4rem 12rem;
+  margin: auto;
   display: flex;
   gap: 7rem;
+
   .left-paragraph {
     h3 {
       font-size: 60px;
@@ -11,6 +13,37 @@
     p {
       margin-right: 8rem;
       margin-bottom: 3rem;
+      padding-right: 3rem;
+    }
+  }
+
+  .right-images {
+    text-align: center;
+    img {
+      width: fit-content;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    flex-direction: column-reverse;
+    padding: 1rem 5rem;
+    .left-paragraph {
+      text-align: center;
+      p {
+        padding: 1rem 3rem 3rem;
+        margin: 0;
+      }
+    }
+
+    .right-images img {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    padding: 1rem;
+
+    .left-paragraph h3 {
+      font-size: 40px;
     }
   }
 }

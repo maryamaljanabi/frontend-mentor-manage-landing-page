@@ -3,7 +3,7 @@ import React from "react";
 export default function Card({ img, name, content }) {
   return (
     <div className="card">
-      <img src={img} alt="testimonials-image" />
+      <img src={img} alt={`testimonials-image-${name}`} />
       <div className="content">
         <h3>{name}</h3>
         <p>{content}</p>

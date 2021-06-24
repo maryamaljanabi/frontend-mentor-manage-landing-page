@@ -5,6 +5,9 @@
   padding: 3rem 12rem;
   justify-content: space-between;
   align-items: center;
+  .burger {
+    display: none;
+  }
   .logo {
     width: 130px;
     object-fit: contain;
@@ -19,6 +22,41 @@
       &:hover {
         color: $Bright-Red;
         cursor: pointer;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    padding: 1rem 2rem;
+    .links,
+    .nav-button {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+      transition: all 500ms ease-in-out;
+      img {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .burger-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: white;
+        position: absolute;
+        right: 4rem;
+        top: 1rem;
+        padding: 1rem;
+        align-items: center;
+        border-radius: 10px;
+        transition: all 500ms ease-in-out;
+
+        span {
+          color: $Dark-Blue;
+        }
       }
     }
   }
