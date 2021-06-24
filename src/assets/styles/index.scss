@@ -17,10 +17,9 @@ html {
 body {
   background-image: url("./../images/bg-tablet-pattern.svg"),
     url("./../images/bg-tablet-pattern.svg");
-  background-position: top -9rem right -6rem, top -8rem right -8rem,
-    top 32rem left 14rem;
+  background-position: top -9rem right -6rem, top 75rem right 85rem;
   background-repeat: no-repeat;
-  background-color: $Very-Light-Gray;
+  // background-color: $Very-Light-Gray;
 }
 
 .rounded-orange-button {
@@ -44,4 +43,5 @@ p {
   line-height: 1.5rem;
   padding-right: 3rem;
   margin-bottom: 2rem;
+  text-align: justify;
 }
