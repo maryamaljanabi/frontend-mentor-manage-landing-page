@@ -46,7 +46,8 @@
       flex-direction: column;
       justify-content: space-between;
       .manage-footer-logo {
-        background-color: blanchedalmond;
+        filter: invert(28%) sepia(35%) saturate(989%) hue-rotate(356deg)
+          brightness(324%) contrast(143%);
       }
       .social-media {
         display: flex;
