@@ -19,7 +19,6 @@ body {
     url("./../images/bg-tablet-pattern.svg");
   background-position: top -9rem right -6rem, top 75rem right 85rem;
   background-repeat: no-repeat;
-  // background-color: $Very-Light-Gray;
 }
 
 .rounded-orange-button {
@@ -35,6 +34,16 @@ body {
     cursor: pointer;
     color: $Bright-Red;
     background-color: $Very-Light-Gray;
+  }
+}
+
+.inverted-rounded-orange-button {
+  color: $Bright-Red;
+  background-color: $Very-Light-Gray;
+
+  &:hover {
+    color: $Very-Light-Gray;
+    background-color: $Bright-Red;
   }
 }
 
