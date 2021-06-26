@@ -17,6 +17,11 @@ const Footer = () => {
         </button>
       </div>
       <div className="bottom-footer">
+        <div className="bottom-mobile">
+          <img src={ManageLogo} alt="manage-footer-logo" />
+          <p>Copyright 2021. All Rights Reserved</p>
+        </div>
+
         <div className="left-logo">
           <img
             src={ManageLogo}
@@ -31,16 +36,18 @@ const Footer = () => {
             <img src={InstagramIcon} alt="facebook-icon" />
           </div>
         </div>
-        <div className="web-links-1">
-          <p>Home</p>
-          <p>Pricing</p>
-          <p>Products</p>
-          <p>About Us</p>
-        </div>
-        <div className="web-links-2">
-          <p>Careers</p>
-          <p>Community</p>
-          <p>Privacy Policy</p>
+        <div className="web-links-container">
+          <div className="web-links-1">
+            <p>Home</p>
+            <p>Pricing</p>
+            <p>Products</p>
+            <p>About Us</p>
+          </div>
+          <div className="web-links-2">
+            <p>Careers</p>
+            <p>Community</p>
+            <p>Privacy Policy</p>
+          </div>
         </div>
         <div className="search-column">
           <div className="search-box">
