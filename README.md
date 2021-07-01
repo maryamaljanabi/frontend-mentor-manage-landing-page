@@ -30,7 +30,7 @@ Mobile
 
 ## Demo
 
-The solution is deployed to github pages and can be viewed through this URL: [Solution on Github Pages](https://maryamaljanabi.github.io/frontend-mentor-3column/)
+The solution is deployed to github pages and can be viewed through this URL: [Solution on Github Pages](https://maryamaljanabi.github.io/frontend-mentor-manage-landing-page/)
 
 ## Built with
 
